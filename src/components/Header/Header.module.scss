@@ -1,0 +1,13 @@
+.container{
+    // font-family: "Inter";
+    .box{
+        pointer-events: none;
+        position: absolute;
+        left: 39px;
+        transition-duration: 500ms;
+        width: 105px;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+}

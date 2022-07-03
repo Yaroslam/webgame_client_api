@@ -1,0 +1,21 @@
+.container {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    .item {
+        display: flex;
+        flex-direction: column;
+        ul{
+            padding: 0;
+            border-radius: 5px;
+            border: 1px solid black !important;
+        }
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}

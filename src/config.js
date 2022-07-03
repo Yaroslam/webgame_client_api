@@ -1,0 +1,1 @@
+export const api_key = 'https://b15a-77-37-180-225.eu.ngrok.io'
