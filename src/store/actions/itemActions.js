@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { itemSlice } from '../reducers/itemSlice'
-import { api_key } from './../../config';
+import { api_key } from '/../../config';
 
 export const getItems = () => async dispatch => {
     await axios.get(`${api_key}/api/Items/`)
